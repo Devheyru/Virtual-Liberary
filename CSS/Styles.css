@@ -351,10 +351,14 @@ footer {
   background-color: #007bff;
   align-items: center;
   color: #fff;
+  max-width: 100%;
 }
 .footers {
   display: flex;
-  justify-content: space-around;
+  width: 100%;
+}
+.footer1 {
+  justify-content: space-between;
   align-items: center;
 }
 .footers button {
@@ -365,12 +369,6 @@ footer {
   background-color: #0056b3;
   color: #fff;
 }
-/* .password-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-} */
 
 .form-input {
   width: 100%;
@@ -430,9 +428,6 @@ footer {
 
   .toggler {
     display: block;
-  }
-  footer {
-    max-height: 250px;
   }
 }
 @media screen and (max-width: 680px) {
