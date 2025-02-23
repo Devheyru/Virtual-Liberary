@@ -74,7 +74,7 @@ nav ul li a:hover {
 /* Home styling */
 
 #Home {
-  background-image: url("../Assets/Images/HomeBg.jpg");
+  background-image: url("../HTML/HomeBg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
